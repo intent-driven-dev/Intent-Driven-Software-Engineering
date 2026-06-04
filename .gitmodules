@@ -1,0 +1,6 @@
+[submodule "ch2/vibey-url-shortener"]
+	path = ch2/vibey-url-shortener
+	url = https://github.com/intent-driven-dev/vibey-url-shortener
+[submodule "ch2/spec-driven-url-shortener"]
+	path = ch2/spec-driven-url-shortener
+	url = https://github.com/intent-driven-dev/spec-driven-url-shortener

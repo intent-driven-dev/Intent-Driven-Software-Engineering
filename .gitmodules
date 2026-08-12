@@ -4,3 +4,6 @@
 [submodule "ch2/spec-driven-url-shortener"]
 	path = ch2/spec-driven-url-shortener
 	url = https://github.com/intent-driven-dev/spec-driven-url-shortener
+[submodule "ch4/url-shortener-speckit"]
+	path = ch4/url-shortener-speckit
+	url = https://github.com/intent-driven-dev/url-shortener-speckit.git

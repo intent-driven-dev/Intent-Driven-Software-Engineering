@@ -11,14 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           submodules: recursive
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Configure Git
         run: |
@@ -38,22 +37,9 @@ jobs:
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Create Pull Request
+      - name: Commit and push changes
         if: steps.check_changes.outputs.has_changes == 'true'
-        uses: peter-evans/create-pull-request@v5
-        with:
-          commit-message: "chore: update submodules to latest commits"
-          title: "chore: update submodules to latest commits"
-          body: |
-            ## Description
-            This PR updates all Git submodules to their latest commits.
-
-            ### Submodules Updated:
-            - ch2/vibey-url-shortener
-            - ch2/spec-driven-url-shortener
-            - ch4/url-shortener-speckit
-
-            ### How to verify
-            Review the submodule commit hashes to ensure they point to the desired commits.
-          branch: chore/update-submodules
-          delete-branch: true
+        run: |
+          git add -A
+          git commit -m "chore: update submodules to latest commits"
+          git push origin HEAD:${{ github.ref_name }}

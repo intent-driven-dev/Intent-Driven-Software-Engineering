@@ -7,3 +7,9 @@
 [submodule "ch4/url-shortener-speckit"]
 	path = ch4/url-shortener-speckit
 	url = https://github.com/intent-driven-dev/url-shortener-speckit.git
+[submodule "ch5/url-shortener-work-items"]
+	path = ch5/url-shortener-work-items
+	url = https://github.com/intent-driven-dev/url-shortener-work-items
+[submodule "ch5/sdd-with-project-board"]
+	path = ch5/sdd-with-project-board
+	url = https://github.com/intent-driven-dev/sdd-with-project-board

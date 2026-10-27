@@ -13,3 +13,12 @@
 [submodule "ch5/sdd-with-project-board"]
 	path = ch5/sdd-with-project-board
 	url = https://github.com/intent-driven-dev/sdd-with-project-board
+[submodule "ch5/url-shortener-app-spec"]
+	path = ch5/url-shortener-app-spec
+	url = https://github.com/intent-driven-dev/url-shortener-app-spec
+[submodule "ch5/url-shortener-be"]
+	path = ch5/url-shortener-be
+	url = https://github.com/intent-driven-dev/url-shortener-be
+[submodule "ch5/url-shortener-fe"]
+	path = ch5/url-shortener-fe
+	url = https://github.com/intent-driven-dev/url-shortener-fe

@@ -3,7 +3,7 @@
 This repository contains companion code for the book [_Spec-Driven Development: Engineering with Intent (Manning Publications)_](https://hubs.ly/Q04vSdlS0).
 
 <a href="https://hubs.ly/Q04vSdlS0" target="_blank">
-  <img width="1584" height="396" alt="linkedin profile banner" src="https://github.com/user-attachments/assets/6e80ce16-4daa-454d-a685-83ec0e0a146f" />
+  <img width="1584" height="396" alt="̌Spec-Driven Development: Engineering with Intent — Manning book banner" src="https://github.com/user-attachments/assets/6e80ce16-4daa-454d-a685-83ec0e0a146f" />
 </a>
 
 The code listings are organized by chapter. Some chapter-specific listings are included as Git submodules so each example project can keep its own independent Git history.

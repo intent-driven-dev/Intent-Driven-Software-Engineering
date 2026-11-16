@@ -22,3 +22,9 @@
 [submodule "ch5/url-shortener-fe"]
 	path = ch5/url-shortener-fe
 	url = https://github.com/intent-driven-dev/url-shortener-fe
+[submodule "ch6/intent-harness-capabilities"]
+	path = ch6/intent-harness-capabilities
+	url = https://github.com/intent-driven-dev/intent-harness-capabilities
+[submodule "ch6/vibey-url-shortener-with-adrs"]
+	path = ch6/vibey-url-shortener-with-adrs
+	url = https://github.com/intent-driven-dev/vibey-url-shortener-with-adrs

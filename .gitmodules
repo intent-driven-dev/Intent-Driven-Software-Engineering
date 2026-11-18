@@ -28,3 +28,6 @@
 [submodule "ch6/vibey-url-shortener-with-adrs"]
 	path = ch6/vibey-url-shortener-with-adrs
 	url = https://github.com/intent-driven-dev/vibey-url-shortener-with-adrs
+[submodule "ch6/intent-harness-template-example"]
+	path = ch6/intent-harness-template-example
+	url = https://github.com/intent-driven-dev/intent-harness-template-example
